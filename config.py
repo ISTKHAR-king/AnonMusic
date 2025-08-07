@@ -41,13 +41,13 @@ DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=3
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/TEAM-KRITI/AnonMusic")
-UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Master")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/ISTKHAR-king/AnonMusic")
+UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "Main")
 GIT_TOKEN = getenv("GIT_TOKEN")
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/lll_BADNAM_BABY_lll")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+G-kGeNJKv_YxNTg9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/iamIstkhar")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+--i-JpgGkc8wY2E9")
 
 AUTO_END_VC_STREAM = getenv("AUTO_END_VC_STREAM", "False")
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "False")
@@ -82,8 +82,8 @@ confirmer = {}
 file_cache: dict[str, float] = {}
 
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/cudvlq.jpg")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/cudvlq.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/0fah6w.jpg")
+PING_IMG_URL = getenv("PING_IMG_URL", "https://files.catbox.moe/4t4sfm.jpg")
 
 PLAYLIST_IMG_URL = "https://files.catbox.moe/v7u8ji.jpg"
 STATS_IMG_URL = "https://files.catbox.moe/7g7j9f.jpg"
