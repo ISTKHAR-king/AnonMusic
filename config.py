@@ -33,7 +33,7 @@ BASE_API_URL = getenv("BASE_API_URL", "https://xyz.spotifytech.shop")
 BASE_API_KEY = getenv("BASE_API_KEY", "1c944051da8a7b98acce50733365b1b0")
 
 # promotion website like : Api Docs etc etc..., Please Don't Change This
-WEBSITE = getenv("WEBSITE", "https://xyz.spotifytech.shop")
+WEBSITE = getenv("WEBSITE", "https://t.me/iamistkhar")
 COOKIES_URL = getenv("COOKIES_URL")
 
 DURATION_LIMIT_MIN = validate_env_var("DURATION_LIMIT", cast_type=int, default=300)
